@@ -1,3 +1,4 @@
+/*DEFAULT FORMAT FOR FULL SITE BEINGS*/
 :root{
     --default-font-color:#ffffff;
     --section-bg-color: #0072bb;
@@ -8,11 +9,9 @@
     padding: 0;
     margin: 0;
 }
+/*DEFAULT FORMAT FOR FULL SITE ENDS*/
 
-body {
-    background-color: #d9dcd6;
-}
-
+/*HEADER CONDITIONS START HERE*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -46,11 +45,16 @@ body {
     margin-left: 25px;
 }
 
-a {
+.header a {
     color: var(--default-font-color);
     text-decoration: none;
 }
+/*HEADER CONDITIONS END HERE*/
 
+/*BACKGROUND START*/
+body {
+    background-color: #d9dcd6;
+}
 
 .hero {
     height: 800px;
@@ -60,7 +64,9 @@ a {
     background-size: cover;
     background-position: center;
 }
+/*BACKGROUND END*/
 
+/*(MAIN SECTION) "SEO, ORM AND SMM" BEGINS*/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -76,33 +82,6 @@ a {
     display: inline-block;
     margin-left: 20px;
     font-size: 16px;
-}
-
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-.benefits{
-    margin-bottom: 32px;
-    color: var(--default-font-color);
-}
-/* Adjust headers for section*/
-.benefits h3{
-    margin-bottom: 10px;
-    text-align: center;  
-}
-
-/* Adjust IMG for section*/
-.benefits img{
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
 }
 
 .search-engine-optimization {
@@ -132,33 +111,45 @@ a {
     color: var(--default-font-color);
 }
 
-.search-engine-optimization img {
+.content img{
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+.content h2{
     margin-bottom: 20px;
     font-size: 36px;
 }
+/*(MAIN SECTION) "SEO, ORM AND SMM" ENDS*/
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+/*(SUB SECTION) "LEAD GEN, BRAND AWARE, and COST MGM" BEINGS*/
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+.benefits{
+    margin-bottom: 32px;
+    color: var(--default-font-color);
 }
 
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+.benefits h3{
+    margin-bottom: 10px;
+    text-align: center;  
 }
 
+.benefits img{
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/*(SUB SECTION) "LEAD GEN, BRAND AWARE, and COST MGM" ENDS*/
+
+/*FOOTER BEINGS HERE*/
 .footer {
     padding: 30px;
     clear: both;
@@ -169,3 +160,4 @@ a {
 .footer h2 {
     font-size: 20px;
 }
+/*FOOTER ENDS HERE*/
