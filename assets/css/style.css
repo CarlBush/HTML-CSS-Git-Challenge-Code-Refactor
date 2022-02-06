@@ -51,7 +51,7 @@
 }
 /*HEADER CONDITIONS END HERE*/
 
-/*BACKGROUND START*/
+/*BACKGROUND/HERO START*/
 body {
     background-color: #d9dcd6;
 }
@@ -64,7 +64,7 @@ body {
     background-size: cover;
     background-position: center;
 }
-/*BACKGROUND END*/
+/*BACKGROUND/HERO END*/
 
 /*(MAIN SECTION) "SEO, ORM AND SMM" BEGINS*/
 .float-left {
@@ -84,25 +84,7 @@ body {
     font-size: 16px;
 }
 
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: var(--section-bg-color);
-    color: var(--default-font-color);
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: var(--section-bg-color);
-    color: var(--default-font-color);
-}
-
-.social-media-marketing {
+.content-sub {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -121,7 +103,7 @@ body {
 }
 /*(MAIN SECTION) "SEO, ORM AND SMM" ENDS*/
 
-/*(SUB SECTION) "LEAD GEN, BRAND AWARE, and COST MGM" BEINGS*/
+/*(ASIDE SECTION) "LEAD GEN, BRAND AWARE, and COST MGM" BEINGS*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -131,8 +113,6 @@ body {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
-}
-.benefits{
     margin-bottom: 32px;
     color: var(--default-font-color);
 }
@@ -147,7 +127,7 @@ body {
     margin: 10px auto;
     max-width: 150px;
 }
-/*(SUB SECTION) "LEAD GEN, BRAND AWARE, and COST MGM" ENDS*/
+/*(ASIDE SECTION) "LEAD GEN, BRAND AWARE, and COST MGM" ENDS*/
 
 /*FOOTER BEINGS HERE*/
 .footer {
